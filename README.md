@@ -33,12 +33,12 @@ Para realizar um scan de subdomínios de um domínio, execute o comando abaixo. 
 #### Sintaxe:
 
 ```bash
-python dnsscan.py -s exemplo.com wordlist/sub.txt
+python dnsscan.py -s exemplo.com wordlist/subdomains-top1million-5000.txt
 ```
 
 - `-s`: Realiza o scan de subdomínios.
 - `exemplo.com`: O domínio para o qual deseja realizar o scan.
-- `wordlist/sub.txt`: A wordlist que será utilizada para tentar descobrir os subdomínios. O repositório já inclui duas wordlists populares.
+- `wordlist/subdomains-top1million-5000.txt`: A wordlist que será utilizada para tentar descobrir os subdomínios. O repositório já inclui duas wordlists populares.
 
 #### Exemplo:
 
