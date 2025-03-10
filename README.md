@@ -43,7 +43,7 @@ python dnsscan.py -s exemplo.com wordlist/subdomains-top1million-5000.txt
 #### Exemplo:
 
 ```bash
-python dnsscan.py -s exemplo.com wordlist/sub.txt
+python dnsscan.py -s exemplo.com wordlist/subdomains-top1million-5000.txt
 ```
 
 Após a execução, o script irá gerar um arquivo `resultado_subdominios.json` com os subdomínios encontrados e seus respectivos IPs (IPv4 e IPv6).
@@ -55,7 +55,7 @@ Para realizar um scan de CNAME, basta executar o seguinte comando:
 #### Sintaxe:
 
 ```bash
-python dnsscan.py -c exemplo.com wordlist/sub.txt
+python dnsscan.py -c exemplo.com wordlist/subdomains-top1million-5000.txt
 ```
 
 - `-c`: Realiza o scan de CNAME para os subdomínios encontrados.
@@ -65,7 +65,7 @@ python dnsscan.py -c exemplo.com wordlist/sub.txt
 #### Exemplo:
 
 ```bash
-python dnsscan.py -c exemplo.com wordlist/sub.txt
+python dnsscan.py -c exemplo.com wordlist/subdomains-top1million-5000.txt
 ```
 
 Esse comando retornará os alias (CNAMEs) dos subdomínios encontrados, e também gerará um arquivo `resultado_cname.json` com as informações.
